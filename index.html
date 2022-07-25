@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="task.css" type="text/css" rel="stylesheet" />
+        <script src="task.js" defer></script>
+    </head>
+    <body>
+        <div id="my_row_edits" class="row">
+            <div id="my_col_edits" class="col">
+                <label class="my_profile_label_edit" for="">Task List</label>
+            </div>
+        </div>
+        <div class="container">
+            
+            <div class="col">
+                
+                <table>
+                   <!-- <tr>
+                        <td><label class="my_profile_label_edit" for="">Task List</label></td>
+                    </tr>-->
+                    <tr>
+                        <td><label>Task</label>
+                    </tr>
+                    <tr>
+                        <td><input id="task" type="text" name="task" size="50" /></td>
+                    </tr>
+                    <tr>
+                        <td><button id="addbtn" onclick="addTask();">Add Task</button></td>
+                        <!--<td><input id="addbtn" onclick="addTask();" type="submit" name="addbtn" value="Add Task" /></td>-->
+                    </tr>
+                    <tr>
+                        <td><button id="clear" onclick="clearTask();">Clear Tasks</button></td>
+                       <!-- <td><input id="clear" onclick="clearTask();" type="submit" name="clear" value="Clear Tasks" /></td>-->
+                    </tr>
+                </table>
+            </div>
+            <div class="col">
+                <table>
+                    <tr>
+                        <td><label>Task Lists</label></td>
+                    </tr>
+                    <tr>
+                        <td><textarea id="tasklist" name="tasklist" rows="7" cols="50"></textarea></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+       
+    </body>
+
+</html>
