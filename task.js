@@ -1,4 +1,7 @@
 let tasks  = localStorage.getItem("tasks");
+if(tasks===null){
+    tasks="";
+}
    
    window.onload = function () { 
     document.getElementById("tasklist").value = tasks;
